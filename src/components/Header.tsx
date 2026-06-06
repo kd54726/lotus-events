@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone, CalendarHeart, Building2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import logo from '../assets/lotuslogo.png';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -17,7 +18,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <img 
-            src="http://www.lotusep.in/img/lotuslogo.png" 
+            src={logo} 
             alt="Lotus Events Logo" 
             className="h-14 md:h-20 w-auto object-contain bg-white/0 p-1 rounded shrink-0 transition-all"
           />

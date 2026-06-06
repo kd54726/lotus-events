@@ -1,3 +1,5 @@
+import logo from '../assets/lotuslogo.png';
+
 export function Footer() {
   return (
     <footer className="bg-dark-navy text-white pt-16 md:pt-20 pb-8 md:pb-10 border-t border-white/10 text-center md:text-left">
@@ -6,7 +8,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="mb-4">
                <img 
-                 src="http://www.lotusep.in/img/lotuslogo.png" 
+                 src={logo} 
                  alt="Lotus Events Logo" 
                  className="h-18 md:h-22 w-auto object-contain bg-white/0 p-2 rounded shadow-sm mx-auto md:mx-0"
                />
