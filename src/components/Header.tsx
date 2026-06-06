@@ -20,7 +20,7 @@ export function Header() {
           <img 
             src={logo} 
             alt="Lotus Events Logo" 
-            className="h-14 md:h-20 w-auto object-contain bg-white/0 p-1 rounded shrink-0 transition-all"
+            className="h-14 md:h-12 w-auto object-contain bg-white/0 p-1 rounded shrink-0 transition-all"
           />
         </div>
 
