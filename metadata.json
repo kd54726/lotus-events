@@ -1,0 +1,6 @@
+{
+  "name": "Lotus Events & Productions",
+  "description": "Premium event management company specializing in Weddings and Corporate Events.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
